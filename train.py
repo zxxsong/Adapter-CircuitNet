@@ -130,6 +130,7 @@ def train():
     print_freq = 100
     save_freq = 10000
 
+    print("===> Training model")
     while iter_num < arg_dict['max_iters']:
         with tqdm(total=print_freq) as bar:
             for feature, label, _ in dataset:        

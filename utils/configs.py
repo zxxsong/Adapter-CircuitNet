@@ -43,42 +43,7 @@ class Parser(object):
             self.parser.add_argument('--weight_decay', default=0)
             self.parser.add_argument('--loss_type', default='MSELoss')
             self.parser.add_argument('--eval-metric', default=['NRMS', 'SSIM', 'EMD'])
-
-        elif self.parser.parse_args().task == 'drc_routenet':
-            self.parser.add_argument('--dataroot', default='../../training_set/DRC')
-            self.parser.add_argument('--ann_file_train', default='./files/train_N28.csv')
-            self.parser.add_argument('--ann_file_test', default='./files/test_N28.csv')
-            self.parser.add_argument('--dataset_type', default='DRCDataset')
-            self.parser.add_argument('--batch_size', default=8)
-            self.parser.add_argument('--aug_pipeline', default=['Flip'])
-
-            self.parser.add_argument('--model_type', default='RouteNet')
-            self.parser.add_argument('--in_channels', default=9)
-            self.parser.add_argument('--out_channels', default=1)
-            self.parser.add_argument('--lr', default=2e-4)
-            self.parser.add_argument('--weight_decay', default=1e-4)
-            self.parser.add_argument('--loss_type', default='MSELoss')
-            self.parser.add_argument('--eval-metric', default=['NRMS', 'SSIM'])
-            self.parser.add_argument('--threshold', default=0.1)
-
-
-        elif self.parser.parse_args().task == 'irdrop_mavi':
-            self.parser.add_argument('--dataroot', default='../../training_set/IR_drop')
-            self.parser.add_argument('--ann_file_train', default='./files/train_N28.csv')
-            self.parser.add_argument('--ann_file_test', default='./files/test_N28.csv')
-            self.parser.add_argument('--dataset_type', default='IRDropDataset')
-            self.parser.add_argument('--batch_size', default=2)
-
-            self.parser.add_argument('--model_type', default='MAVI')
-            self.parser.add_argument('--in_channels', default=1)
-            self.parser.add_argument('--out_channels', default=4)
-            self.parser.add_argument('--lr', default=2e-4)
-            self.parser.add_argument('--weight_decay', default=1e-2)
-            self.parser.add_argument('--loss_type', default='L1Loss')
-            self.parser.add_argument('--eval_metric', default=['NRMS', 'SSIM'])
-            self.parser.add_argument('--threshold', default=0.9885) # 5% after log
-
-        elif self.parser.parse_args().task == 'congestion_transfer_learning':
+        elif self.parser.parse_args().task == 'transfer_learning_adapter':
             # self.parser.add_argument('--dataroot', default='../../training_set/congestion')
             # self.parser.add_argument('--ann_file_train', default='./files/train_N28.csv')
             # self.parser.add_argument('--ann_file_test', default='./files/test_N28.csv')
