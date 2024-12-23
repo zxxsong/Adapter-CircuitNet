@@ -127,8 +127,8 @@ def train():
 
     epoch_loss = 0
     iter_num = 0
-    print_freq = 100
-    save_freq = 10000
+    print_freq = 1
+    save_freq = 10
 
     print("===> Training model")
     while iter_num < arg_dict['max_iters']:

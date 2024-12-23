@@ -153,7 +153,7 @@ class GPDLAdapter(nn.Module):
                  **kwargs):
         super().__init__()
 
-        self.adapter = Adapter(adapter_dim=64, embed_dim=256)
+        self.adapter = Adapter(adapter_dim=8, embed_dim=32)
 
         for p in self.parameters():
             p.requires_grad = False
@@ -166,9 +166,10 @@ class GPDLAdapter(nn.Module):
         self.decoder = Decoder(out_dim=out_channels)
 
     def forward(self, x):
-        adapter_x = self.adapter(x)
-        x = self.encoder(adapter_x)
-        return self.decoder(x)
+        x = self.encoder(x)
+        x0 = self.adapter(x[0])
+        x1 = self.adapter(x[1])
+        return self.decoder((x0, x1))
 
     def init_weights(self, pretrained=None, pretrained_transfer=None, strict=False, **kwargs):
         if isinstance(pretrained, str):

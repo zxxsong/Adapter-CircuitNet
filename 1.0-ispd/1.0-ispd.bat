@@ -13,7 +13,7 @@ python ..\train.py ^
     --dataroot ..\data\target_datasets\superblue11_a\ ^
     --ann_file_train ..\data\target_datasets\superblue11_a.csv ^
     --dataset_type SuperBlueDataset ^
-    --cpu
+    --cpu > .\log\superblue11_a.log 2>&1
 if %errorlevel% == 0 (
     echo superblue11_a done
 ) else (
