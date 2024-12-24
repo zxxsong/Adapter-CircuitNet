@@ -12,7 +12,7 @@ python -W ignore ..\test.py ^
     --dataroot ..\data\target_datasets\superblue12\ ^
     --ann_file_test ..\data\target_datasets\superblue12.csv ^
     --dataset_type SuperBlueDataset ^
-    --cpu > .\log\superblue11_test.log 2>&1
+    --cpu > .\log\adapter\superblue11_test.log 2>&1
 if %errorlevel% == 0 (
     echo superblue11_a done
 ) else (
@@ -26,7 +26,7 @@ python -W ignore ..\test.py ^
     --dataroot ..\data\target_datasets\superblue12\ ^
     --ann_file_test ..\data\target_datasets\superblue12.csv ^
     --dataset_type SuperBlueDataset ^
-    --cpu > .\log\superblue14_test.log 2>&1
+    --cpu > .\log\adapter\superblue14_test.log 2>&1
 if %errorlevel% == 0 (
     echo superblue14 done
 ) else (
@@ -40,7 +40,7 @@ python -W ignore ..\test.py ^
     --dataroot ..\data\target_datasets\superblue12\ ^
     --ann_file_test ..\data\target_datasets\superblue12.csv ^
     --dataset_type SuperBlueDataset ^
-    --cpu > .\log\superblue16_a_test.log 2>&1
+    --cpu > .\log\adapter\superblue16_a_test.log 2>&1
 if %errorlevel% == 0 (
     echo superblue16_a done
 ) else (
@@ -54,7 +54,7 @@ python -W ignore ..\test.py ^
     --dataroot ..\data\target_datasets\superblue12\ ^
     --ann_file_test ..\data\target_datasets\superblue12.csv ^
     --dataset_type SuperBlueDataset ^
-    --cpu > .\log\superblue19_test.log 2>&1
+    --cpu > .\log\adapter\superblue19_test.log 2>&1
 if %errorlevel% == 0 (
     echo superblue19 done
 ) else (
