@@ -142,6 +142,9 @@ def train():
                 regular_lr = cosine_lr.get_regular_lr(iter_num)
                 cosine_lr._set_lr(optimizer, regular_lr)
 
+                # freeze the parameters expected the last layer
+                if arg_dict['task'] == "transfer_learning_freeze":
+                    model.freeze_params()
                 prediction = model(input)
 
                 optimizer.zero_grad()
