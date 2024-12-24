@@ -4,11 +4,12 @@ REM train
 echo start training
 
 REM set python path to find routability_ir_drop_prediction module
-set PYTHONPATH=D:\EDA\Adapter-CircuitNet
+set PYTHONPATH=E:\szx\Adapter-CircuitNet
 REM superblue11_a
-python ..\train.py ^
+REM ignore warning
+python -W ignore ..\train.py ^
     --task transfer_learning_adapter ^
-    --save_path .\models\fine_tune_model\superblue11_a\ ^
+    --save_path .\models\adapter_model\superblue11_a\ ^
     --pretrained .\models\pretrained\congestion_gpdl\model_iters_170000.pth ^
     --dataroot ..\data\target_datasets\superblue11_a\ ^
     --ann_file_train ..\data\target_datasets\superblue11_a.csv ^
@@ -21,12 +22,12 @@ if %errorlevel% == 0 (
 )
 
 REM superblue14
-python ..\train.py ^
+python -W ignore ..\train.py ^
     --task transfer_learning_adapter ^
-    --save_path .\models\fine_tune_model\superblue14\ ^
+    --save_path .\models\adapter_model\superblue14\ ^
     --pretrained .\models\pretrained\congestion_gpdl\model_iters_170000.pth ^
-    --dataroot .\data\target_datasets\superblue14\ ^
-    --ann_file_train .\data\target_datasets\superblue14.csv ^
+    --dataroot ..\data\target_datasets\superblue14\ ^
+    --ann_file_train ..\data\target_datasets\superblue14.csv ^
     --dataset_type SuperBlueDataset ^
     --cpu > .\log\superblue14.log 2>&1
 if %errorlevel% == 0 (
@@ -36,12 +37,12 @@ if %errorlevel% == 0 (
 )
 
 REM superblue16_a
-python ..\train.py ^
+python -W ignore ..\train.py ^
     --task transfer_learning_adapter ^
-    --save_path .\models\fine_tune_model\superblue16_a\ ^
+    --save_path .\models\adapter_model\superblue16_a\ ^
     --pretrained .\models\pretrained\congestion_gpdl\model_iters_170000.pth ^
-    --dataroot .\data\target_datasets\superblue16_a\ ^
-    --ann_file_train .\data\target_datasets\superblue16_a.csv ^
+    --dataroot ..\data\target_datasets\superblue16_a\ ^
+    --ann_file_train ..\data\target_datasets\superblue16_a.csv ^
     --dataset_type SuperBlueDataset ^
     --cpu > .\log\superblue16_a.log 2>&1
 if %errorlevel% == 0 (
@@ -51,12 +52,12 @@ if %errorlevel% == 0 (
 )
 
 REM superblue19
-python ..\train.py ^
+python -W ignore ..\train.py ^
     --task transfer_learning_adapter ^
-    --save_path .\models\fine_tune_model\superblue19\ ^
+    --save_path .\models\adapter_model\superblue19\ ^
     --pretrained .\models\pretrained\congestion_gpdl\model_iters_170000.pth ^
-    --dataroot .\data\target_datasets\superblue19\ ^
-    --ann_file_train .\data\target_datasets\superblue19.csv ^
+    --dataroot ..\data\target_datasets\superblue19\ ^
+    --ann_file_train ..\data\target_datasets\superblue19.csv ^
     --dataset_type SuperBlueDataset ^
     --cpu  > .\log\superblue19.log 2>&1
 if %errorlevel% == 0 (

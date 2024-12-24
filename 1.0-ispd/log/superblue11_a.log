@@ -1,31 +1,0 @@
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-===> Loading datasets
-===> Building model
-The model and loaded state dict do not match exactly
-
-missing keys in source state_dict: adapter.layer_norm.weight, adapter.layer_norm.bias, adapter.down_project.weight, adapter.up_project.weight
-
-  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:05<08:32,  5.17s/it]No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-  2%|¨‡         | 2/100 [00:12<10:48,  6.61s/it]No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-No CUDA runtime is found, using CUDA_HOME='C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6'
-  2%|¨‡         | 2/100 [00:20<16:43, 10.24s/it]
-Traceback (most recent call last):
-  File "D:\EDA\Adapter-CircuitNet\train.py", line 168, in <module>
-    train()
-  File "D:\EDA\Adapter-CircuitNet\train.py", line 150, in train
-    pixel_loss.backward()
-  File "D:\Anaconda5.3.1\envs\circuit_net\lib\site-packages\torch\_tensor.py", line 363, in backward
-    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
-  File "D:\Anaconda5.3.1\envs\circuit_net\lib\site-packages\torch\autograd\__init__.py", line 173, in backward
-    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-KeyboardInterrupt
-^C
