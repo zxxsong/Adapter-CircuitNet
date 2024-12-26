@@ -1,0 +1,1005 @@
+===> Loading datasets
+===> Building model
+The model and loaded state dict do not match exactly
+missing keys in source state_dict: adapter.group_norm.weight, adapter.group_norm.bias, adapter.down_project.weight, adapter.up_project.weight
+===> Training model
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:04<00:00,  4.23s/it]
+100%|��������������������| 1/1 [00:04<00:00,  4.23s/it]
+===> Iters[1](1/200): Loss: 0.5050
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_1.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+===> Iters[2](2/200): Loss: 0.3347
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_2.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+===> Iters[3](3/200): Loss: 0.2373
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_3.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.74s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.74s/it]
+===> Iters[4](4/200): Loss: 0.1926
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_4.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[5](5/200): Loss: 0.2618
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_5.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+===> Iters[6](6/200): Loss: 0.3364
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_6.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[7](7/200): Loss: 0.2342
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_7.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+===> Iters[8](8/200): Loss: 0.1814
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_8.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+===> Iters[9](9/200): Loss: 0.1900
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_9.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+===> Iters[10](10/200): Loss: 0.2340
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_10.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.07s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.07s/it]
+===> Iters[11](11/200): Loss: 0.1288
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_11.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[12](12/200): Loss: 0.1973
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_12.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+===> Iters[13](13/200): Loss: 0.1701
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_13.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+===> Iters[14](14/200): Loss: 0.1475
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_14.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+===> Iters[15](15/200): Loss: 0.1695
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_15.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+===> Iters[16](16/200): Loss: 0.1797
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_16.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+===> Iters[17](17/200): Loss: 0.1364
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_17.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+===> Iters[18](18/200): Loss: 0.1454
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_18.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[19](19/200): Loss: 0.0977
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_19.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+===> Iters[20](20/200): Loss: 0.1144
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_20.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+===> Iters[21](21/200): Loss: 0.1129
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_21.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[22](22/200): Loss: 0.1265
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_22.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[23](23/200): Loss: 0.1227
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_23.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[24](24/200): Loss: 0.1250
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_24.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.16s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.16s/it]
+===> Iters[25](25/200): Loss: 0.0969
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_25.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+===> Iters[26](26/200): Loss: 0.1266
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_26.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+===> Iters[27](27/200): Loss: 0.0987
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_27.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.63s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.63s/it]
+===> Iters[28](28/200): Loss: 0.1268
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_28.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.11s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.11s/it]
+===> Iters[29](29/200): Loss: 0.0896
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_29.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+===> Iters[30](30/200): Loss: 0.0922
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_30.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[31](31/200): Loss: 0.1144
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_31.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[32](32/200): Loss: 0.0988
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_32.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+===> Iters[33](33/200): Loss: 0.1088
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_33.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+===> Iters[34](34/200): Loss: 0.1070
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_34.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[35](35/200): Loss: 0.1037
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_35.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[36](36/200): Loss: 0.0819
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_36.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[37](37/200): Loss: 0.0762
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_37.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[38](38/200): Loss: 0.1045
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_38.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.31s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.31s/it]
+===> Iters[39](39/200): Loss: 0.0692
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_39.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[40](40/200): Loss: 0.1033
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_40.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[41](41/200): Loss: 0.1112
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_41.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+===> Iters[42](42/200): Loss: 0.0900
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_42.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[43](43/200): Loss: 0.0830
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_43.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+===> Iters[44](44/200): Loss: 0.1018
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_44.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[45](45/200): Loss: 0.0930
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_45.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[46](46/200): Loss: 0.1143
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_46.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+===> Iters[47](47/200): Loss: 0.0955
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_47.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+===> Iters[48](48/200): Loss: 0.0991
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_48.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[49](49/200): Loss: 0.0926
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_49.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[50](50/200): Loss: 0.1096
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_50.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+===> Iters[51](51/200): Loss: 0.0963
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_51.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[52](52/200): Loss: 0.0762
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_52.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[53](53/200): Loss: 0.0825
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_53.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+===> Iters[54](54/200): Loss: 0.0557
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_54.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+===> Iters[55](55/200): Loss: 0.0821
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_55.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[56](56/200): Loss: 0.0689
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_56.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[57](57/200): Loss: 0.0995
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_57.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[58](58/200): Loss: 0.0629
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_58.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.07s/it]
+===> Iters[59](59/200): Loss: 0.0883
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_59.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.17s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.17s/it]
+===> Iters[60](60/200): Loss: 0.0853
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_60.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+===> Iters[61](61/200): Loss: 0.0499
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_61.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[62](62/200): Loss: 0.0905
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_62.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+===> Iters[63](63/200): Loss: 0.0809
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_63.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+===> Iters[64](64/200): Loss: 0.1048
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_64.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[65](65/200): Loss: 0.0826
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_65.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+===> Iters[66](66/200): Loss: 0.0827
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_66.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+===> Iters[67](67/200): Loss: 0.0864
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_67.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+===> Iters[68](68/200): Loss: 0.0846
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_68.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+===> Iters[69](69/200): Loss: 0.0777
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_69.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[70](70/200): Loss: 0.0859
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_70.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+===> Iters[71](71/200): Loss: 0.0681
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_71.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.75s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.75s/it]
+===> Iters[72](72/200): Loss: 0.0758
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_72.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[73](73/200): Loss: 0.0690
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_73.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+===> Iters[74](74/200): Loss: 0.0690
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_74.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+===> Iters[75](75/200): Loss: 0.0851
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_75.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.76s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.76s/it]
+===> Iters[76](76/200): Loss: 0.0837
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_76.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+===> Iters[77](77/200): Loss: 0.0859
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_77.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.76s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.76s/it]
+===> Iters[78](78/200): Loss: 0.0496
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_78.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+===> Iters[79](79/200): Loss: 0.0573
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_79.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.17s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.17s/it]
+===> Iters[80](80/200): Loss: 0.1058
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_80.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.10s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.10s/it]
+===> Iters[81](81/200): Loss: 0.0753
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_81.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+===> Iters[82](82/200): Loss: 0.0937
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_82.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.73s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.73s/it]
+===> Iters[83](83/200): Loss: 0.1007
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_83.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.18s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.18s/it]
+===> Iters[84](84/200): Loss: 0.0782
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_84.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[85](85/200): Loss: 0.0944
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_85.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+===> Iters[86](86/200): Loss: 0.0879
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_86.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+===> Iters[87](87/200): Loss: 0.1040
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_87.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.65s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.65s/it]
+===> Iters[88](88/200): Loss: 0.0655
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_88.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[89](89/200): Loss: 0.0533
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_89.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[90](90/200): Loss: 0.0436
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_90.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.13s/it]
+===> Iters[91](91/200): Loss: 0.0933
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_91.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+===> Iters[92](92/200): Loss: 0.0721
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_92.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+===> Iters[93](93/200): Loss: 0.0858
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_93.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.94s/it]
+===> Iters[94](94/200): Loss: 0.0794
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_94.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[95](95/200): Loss: 0.0935
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_95.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+===> Iters[96](96/200): Loss: 0.0617
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_96.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[97](97/200): Loss: 0.0853
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_97.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[98](98/200): Loss: 0.0667
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_98.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[99](99/200): Loss: 0.0781
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_99.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.93s/it]
+===> Iters[100](100/200): Loss: 0.0778
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_100.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+===> Iters[101](101/200): Loss: 0.0895
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_101.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+===> Iters[102](102/200): Loss: 0.0768
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_102.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:07<00:00,  8.00s/it]
+===> Iters[103](103/200): Loss: 0.0753
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_103.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.81s/it]
+===> Iters[104](104/200): Loss: 0.0809
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_104.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+===> Iters[105](105/200): Loss: 0.0694
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_105.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.25s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.25s/it]
+===> Iters[106](106/200): Loss: 0.0775
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_106.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.05s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.05s/it]
+===> Iters[107](107/200): Loss: 0.0949
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_107.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[108](108/200): Loss: 0.0812
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_108.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[109](109/200): Loss: 0.0516
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_109.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[110](110/200): Loss: 0.0830
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_110.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+===> Iters[111](111/200): Loss: 0.0702
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_111.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[112](112/200): Loss: 0.0892
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_112.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+===> Iters[113](113/200): Loss: 0.1085
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_113.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.02s/it]
+===> Iters[114](114/200): Loss: 0.1022
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_114.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+===> Iters[115](115/200): Loss: 0.0612
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_115.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+===> Iters[116](116/200): Loss: 0.1011
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_116.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+===> Iters[117](117/200): Loss: 0.0878
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_117.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[118](118/200): Loss: 0.0782
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_118.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+===> Iters[119](119/200): Loss: 0.0778
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_119.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.86s/it]
+===> Iters[120](120/200): Loss: 0.0621
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_120.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+===> Iters[121](121/200): Loss: 0.0668
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_121.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[122](122/200): Loss: 0.0999
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_122.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[123](123/200): Loss: 0.1051
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_123.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+===> Iters[124](124/200): Loss: 0.0882
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_124.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+===> Iters[125](125/200): Loss: 0.0802
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_125.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.61s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.61s/it]
+===> Iters[126](126/200): Loss: 0.0847
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_126.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+===> Iters[127](127/200): Loss: 0.0663
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_127.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[128](128/200): Loss: 0.0666
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_128.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[129](129/200): Loss: 0.0675
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_129.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[130](130/200): Loss: 0.0674
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_130.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+===> Iters[131](131/200): Loss: 0.0597
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_131.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.65s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.65s/it]
+===> Iters[132](132/200): Loss: 0.0595
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_132.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+===> Iters[133](133/200): Loss: 0.0646
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_133.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.21s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.21s/it]
+===> Iters[134](134/200): Loss: 0.0689
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_134.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.00s/it]
+===> Iters[135](135/200): Loss: 0.0533
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_135.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[136](136/200): Loss: 0.0769
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_136.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.74s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.74s/it]
+===> Iters[137](137/200): Loss: 0.0763
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_137.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+===> Iters[138](138/200): Loss: 0.1005
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_138.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[139](139/200): Loss: 0.0989
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_139.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.66s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.66s/it]
+===> Iters[140](140/200): Loss: 0.0666
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_140.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+===> Iters[141](141/200): Loss: 0.0485
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_141.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+===> Iters[142](142/200): Loss: 0.0727
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_142.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[143](143/200): Loss: 0.0786
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_143.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[144](144/200): Loss: 0.0820
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_144.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.14s/it]
+===> Iters[145](145/200): Loss: 0.0774
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_145.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+===> Iters[146](146/200): Loss: 0.0641
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_146.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[147](147/200): Loss: 0.0723
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_147.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+===> Iters[148](148/200): Loss: 0.0700
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_148.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.79s/it]
+===> Iters[149](149/200): Loss: 0.1084
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_149.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+===> Iters[150](150/200): Loss: 0.0659
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_150.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[151](151/200): Loss: 0.0709
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_151.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[152](152/200): Loss: 0.0850
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_152.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[153](153/200): Loss: 0.0788
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_153.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+===> Iters[154](154/200): Loss: 0.0818
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_154.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.73s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.73s/it]
+===> Iters[155](155/200): Loss: 0.0805
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_155.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[156](156/200): Loss: 0.0831
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_156.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[157](157/200): Loss: 0.0805
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_157.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.82s/it]
+===> Iters[158](158/200): Loss: 0.0784
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_158.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.89s/it]
+===> Iters[159](159/200): Loss: 0.0883
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_159.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.75s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.75s/it]
+===> Iters[160](160/200): Loss: 0.0542
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_160.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.85s/it]
+===> Iters[161](161/200): Loss: 0.1043
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_161.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[162](162/200): Loss: 0.0630
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_162.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[163](163/200): Loss: 0.0786
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_163.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[164](164/200): Loss: 0.0647
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_164.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.90s/it]
+===> Iters[165](165/200): Loss: 0.0919
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_165.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[166](166/200): Loss: 0.0874
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_166.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+===> Iters[167](167/200): Loss: 0.0805
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_167.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.00s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.00s/it]
+===> Iters[168](168/200): Loss: 0.0740
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_168.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.01s/it]
+===> Iters[169](169/200): Loss: 0.0788
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_169.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[170](170/200): Loss: 0.0447
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_170.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[171](171/200): Loss: 0.0942
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_171.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[172](172/200): Loss: 0.1027
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_172.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.78s/it]
+===> Iters[173](173/200): Loss: 0.0561
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_173.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+===> Iters[174](174/200): Loss: 0.0523
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_174.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.11s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.11s/it]
+===> Iters[175](175/200): Loss: 0.0962
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_175.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.99s/it]
+===> Iters[176](176/200): Loss: 0.0689
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_176.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.98s/it]
+===> Iters[177](177/200): Loss: 0.0666
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_177.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.04s/it]
+===> Iters[178](178/200): Loss: 0.0657
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_178.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+===> Iters[179](179/200): Loss: 0.0698
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_179.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.70s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.70s/it]
+===> Iters[180](180/200): Loss: 0.0791
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_180.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.96s/it]
+===> Iters[181](181/200): Loss: 0.0674
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_181.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.84s/it]
+===> Iters[182](182/200): Loss: 0.0728
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_182.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.09s/it]
+===> Iters[183](183/200): Loss: 0.0792
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_183.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.64s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.64s/it]
+===> Iters[184](184/200): Loss: 0.0447
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_184.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.64s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.64s/it]
+===> Iters[185](185/200): Loss: 0.0367
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_185.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+===> Iters[186](186/200): Loss: 0.0924
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_186.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.83s/it]
+===> Iters[187](187/200): Loss: 0.0562
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_187.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.06s/it]
+===> Iters[188](188/200): Loss: 0.0727
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_188.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.80s/it]
+===> Iters[189](189/200): Loss: 0.0726
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_189.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.05s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.05s/it]
+===> Iters[190](190/200): Loss: 0.0772
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_190.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+100%|��������������������| 1/1 [00:08<00:00,  8.03s/it]
+===> Iters[191](191/200): Loss: 0.0764
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_191.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.92s/it]
+===> Iters[192](192/200): Loss: 0.0932
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_192.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.67s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.67s/it]
+===> Iters[193](193/200): Loss: 0.0567
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_193.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.97s/it]
+===> Iters[194](194/200): Loss: 0.0951
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_194.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.77s/it]
+===> Iters[195](195/200): Loss: 0.0679
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_195.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.88s/it]
+===> Iters[196](196/200): Loss: 0.0754
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_196.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.70s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.70s/it]
+===> Iters[197](197/200): Loss: 0.0773
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_197.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.95s/it]
+===> Iters[198](198/200): Loss: 0.0657
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_198.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.87s/it]
+===> Iters[199](199/200): Loss: 0.0558
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_199.pth
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+100%|��������������������| 1/1 [00:07<00:00,  7.91s/it]
+===> Iters[200](200/200): Loss: 0.0762
+Checkpoint saved to ./.\models\exp2_adapter_model_no_group_norm\superblue12\/model_iters_200.pth
