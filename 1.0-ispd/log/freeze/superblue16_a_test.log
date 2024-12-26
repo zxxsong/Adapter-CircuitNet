@@ -1,0 +1,56 @@
+No CUDA runtime is found, using CUDA_HOME='C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA\v11.8'
+===> Loading datasets
+===> Building model
+  0%|          | 0/30 [00:00<?, ?it/s]  0%|          | 0/30 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\szx\Adapter-CircuitNet\test.py", line 78, in <module>
+Traceback (most recent call last):
+    test()
+  File "<string>", line 1, in <module>
+  File "E:\szx\Adapter-CircuitNet\test.py", line 45, in test
+    for feature, label, label_path in dataset:
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "E:\szx\Adapter-CircuitNet\test.py", line 13, in <module>
+    from utils.metrics import build_metric, build_roc_prc_metric
+  File "E:\szx\Adapter-CircuitNet\utils\metrics.py", line 16, in <module>
+    from sklearn.metrics import accuracy_score, roc_curve, confusion_matrix
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\sklearn\__init__.py", line 82, in <module>
+    from .base import clone
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\sklearn\base.py", line 17, in <module>
+    data = self._next_data()
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\torch\utils\data\dataloader.py", line 1207, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\torch\utils\data\dataloader.py", line 1173, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\torch\utils\data\dataloader.py", line 1011, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\queues.py", line 113, in get
+    from .utils import _IS_32BIT
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\sklearn\utils\__init__.py", line 22, in <module>
+    if not self._poll(timeout):
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\connection.py", line 262, in poll
+    from scipy.sparse import issparse
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\site-packages\scipy\sparse\__init__.py", line 270, in <module>
+    return self._poll(timeout)
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\connection.py", line 335, in _poll
+    return bool(wait([self], timeout))
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\connection.py", line 884, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "C:\Users\CW\.conda\envs\szx_circuit_net\lib\multiprocessing\connection.py", line 816, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt
+^C

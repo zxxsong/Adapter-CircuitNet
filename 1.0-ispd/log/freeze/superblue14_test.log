@@ -1,0 +1,18 @@
+No CUDA runtime is found, using CUDA_HOME='C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA\v11.8'
+===> Loading datasets
+===> Building model
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|¨†         | 1/30 [00:02<01:16,  2.62s/it]No CUDA runtime is found, using CUDA_HOME='C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA\v11.8'
+  3%|¨†         | 1/30 [00:03<01:28,  3.07s/it]
+Traceback (most recent call last):
+  File "E:\szx\Adapter-CircuitNet\test.py", line 78, in <module>
+    test()
+  File "E:\szx\Adapter-CircuitNet\test.py", line 53, in test
+    if not metric_func(target.cpu(), prediction.squeeze(1).cpu()) == 1:
+  File "E:\szx\Adapter-CircuitNet\utils\metrics.py", line 50, in new_func
+    return old_func(*new_args)
+  File "E:\szx\Adapter-CircuitNet\utils\metrics.py", line 159, in emd
+    img2 = normalize_exposure(np.squeeze(img2, axis = 2))
+  File "E:\szx\Adapter-CircuitNet\utils\metrics.py", line 138, in normalize_exposure
+    cdf = np.array([sum(hist[:i+1]) for i in range(len(hist))])
+KeyboardInterrupt
+^C

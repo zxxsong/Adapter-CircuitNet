@@ -1,0 +1,9 @@
+No CUDA runtime is found, using CUDA_HOME='C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA\v11.8'
+===> Loading datasets
+===> Building model
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|¨€¨€        | 1/5 [00:02<00:10,  2.63s/it] 40%|¨€¨€¨€¨€      | 2/5 [00:03<00:04,  1.41s/it] 60%|¨€¨€¨€¨€¨€¨€    | 3/5 [00:03<00:02,  1.03s/it] 80%|¨€¨€¨€¨€¨€¨€¨€¨€  | 4/5 [00:04<00:00,  1.19it/s]100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 5/5 [00:04<00:00,  1.35it/s]No CUDA runtime is found, using CUDA_HOME='C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA\v11.8'
+100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 5/5 [00:05<00:00,  1.03s/it]
+===> Avg. NRMS: 0.0719
+===> Avg. SSIM: 0.4759
+===> Avg. EMD: 0.0041
+===> Avg. PSNR: 23.0950
