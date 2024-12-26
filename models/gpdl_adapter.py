@@ -162,6 +162,10 @@ class GPDLAdapter(nn.Module):
         for p in self.adapter.parameters():
             p.requires_grad = True
 
+        # unfreeze decoder parameters
+        for p in self.decoder.parameters():
+            p.requires_grad = True
+
         self.encoder = Encoder(in_dim=in_channels)
         self.decoder = Decoder(out_dim=out_channels)
 
