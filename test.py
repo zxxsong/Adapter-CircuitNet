@@ -40,6 +40,11 @@ def test():
     metrics = {k:build_metric(k) for k in arg_dict['eval_metric']}
     avg_metrics = {k:0 for k in arg_dict['eval_metric']}
 
+    # peak NRMSE metric data
+    all_targets = []
+    all_predictions = []
+    top_k_nums = None
+
     count =0
     with tqdm(total=len(dataset)) as bar:
         for feature, label, label_path in dataset:
@@ -49,7 +54,14 @@ def test():
                 input, target = feature.cuda(), label.cuda()
 
             prediction = model(input)
+
+            # 收集数据
+            all_targets.append(target)
+            all_predictions.append(prediction.cpu())
+
             for metric, metric_func in metrics.items():
+                if metric == 'peakNRMSE':
+                    continue
                 if not metric_func(target.cpu(), prediction.squeeze(1).cpu()) == 1:
                     avg_metrics[metric] += metric_func(target.cpu(), prediction.squeeze(1).cpu())
 
@@ -64,9 +76,37 @@ def test():
                 count +=1
 
             bar.update(1)
-    
+
+    # add peak NRMSE metric
+    for metric, metric_func in metrics.items():
+        if metric == 'peakNRMSE':
+            print("\n===> peak NRMSE in {} samples, all targets {}, all predicitons {}, "
+                  .format(len(dataset), len(all_targets), len(all_predictions)))
+
+            import torch
+            all_targets = torch.cat(all_targets, dim=0)  # [N, 256, 256, 2]
+            all_predictions = torch.cat(all_predictions, dim=0)
+
+            target_means = all_targets.mean(dim=(1, 2, 3))
+
+            top_k_nums = int(len(target_means) * 0.05)  # 前 %5
+            top_indices = torch.argsort(target_means, descending=True)[:top_k_nums]
+
+            selected_targets = all_targets[top_indices]
+            selected_predictions = all_predictions[top_indices]
+
+            for selected_target, selected_prediction in zip(selected_targets, selected_predictions):
+                target = selected_target.clone().unsqueeze(0)  # [1, 1, 256, 256]
+                prediction = selected_prediction.clone().unsqueeze(0)
+
+                if not metric_func(target.cpu(), prediction.cpu()) == 1:
+                    avg_metrics[metric] += metric_func(target.cpu(), prediction.cpu())
+
     for metric, avg_metric in avg_metrics.items():
-        print("===> Avg. {}: {:.4f}".format(metric, avg_metric / len(dataset))) 
+        if metric == 'peakNRMSE':
+            print("===> Avg. {}: {:.4f}".format(metric, avg_metric / top_k_nums))
+        else:
+            print("===> Avg. {}: {:.4f}".format(metric, avg_metric / len(dataset)))
 
     # eval roc&prc
     if arg_dict['plot_roc']:

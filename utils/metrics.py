@@ -23,7 +23,7 @@ from skimage.metrics import normalized_root_mse
 import math
 import utils.metrics as metrics
 
-__all__ = ['psnr', 'ssim', 'nrms', 'emd']
+__all__ = ['psnr', 'ssim', 'nrms', 'emd', 'peaknrmse']
 
 def mkdir_or_exist(dir_name, mode=0o777):
     if dir_name == '':
@@ -121,7 +121,20 @@ def nrms(img1, img2, crop_border=0):
         return 0.05
     return nrmse_value
 
+# add peak NRMSE metric
+@input_converter(apply_to=('img1', 'img2'))
+def peaknrmse(img1, img2, crop_border=0):
+    assert img1.shape == img2.shape, (
+        f'Image shapes are different: {img1.shape}, {img2.shape}.')
 
+    if crop_border != 0:
+        img1 = img1[crop_border:-crop_border, crop_border:-crop_border, None]
+        img2 = img2[crop_border:-crop_border, crop_border:-crop_border, None]
+
+    nrmse_value = normalized_root_mse(img1.flatten(), img2.flatten(), normalization='min-max')
+    if math.isinf(nrmse_value):
+        return 0.05
+    return nrmse_value
 
 def get_histogram(img):
     h, w = img.shape
