@@ -10,7 +10,7 @@ import numpy as np
 from tqdm import tqdm
 
 from datasets.build_dataset import build_dataset
-from utils.metrics import build_metric, build_roc_prc_metric
+from utils.metrics import build_metric, build_roc_prc_metric, topk_normalized_root_mse
 from models.build_model import build_model
 from utils.configs import Parser
 
@@ -39,11 +39,7 @@ def test():
     # Build metrics
     metrics = {k:build_metric(k) for k in arg_dict['eval_metric']}
     avg_metrics = {k:0 for k in arg_dict['eval_metric']}
-
-    # peak NRMSE metric data
-    all_targets = []
-    all_predictions = []
-    top_k_nums = None
+    peak_details = {p: 0 for p in [0.005, 0.01, 0.02, 0.05]}
 
     count =0
     with tqdm(total=len(dataset)) as bar:
@@ -55,14 +51,32 @@ def test():
 
             prediction = model(input)
 
-            # 收集数据
-            all_targets.append(target)
-            all_predictions.append(prediction.cpu())
-
             for metric, metric_func in metrics.items():
                 if metric == 'peakNRMSE':
-                    continue
-                if not metric_func(target.cpu(), prediction.squeeze(1).cpu()) == 1:
+                    # [1, 1, 256, 256] -> [256, 256]
+                    target_tensor = target.cpu().detach()
+                    pred_tensor = prediction.squeeze(1).cpu().detach()
+                    if len(target_tensor.shape) > 2:
+                        target_tensor = target_tensor.squeeze()
+                    if len(pred_tensor.shape) > 2:
+                        pred_tensor = pred_tensor.squeeze()
+                    assert target_tensor.shape == pred_tensor.shape, f"Shape mismatch: {target_tensor.shape} vs {pred_tensor.shape}"
+
+                    target_np = target_tensor.numpy()
+                    pred_np = pred_tensor.numpy()
+                    k_percentages = [0.005, 0.01, 0.02, 0.05]
+                    peak_nrmse_values = {}
+                    for topk_percent in k_percentages:
+                        peak_nrmse_value = topk_normalized_root_mse(target_np, pred_np, topk_percent=topk_percent)
+                        peak_nrmse_values[topk_percent] = peak_nrmse_value
+
+                    peak_nrmse_mean_value = np.mean(list(peak_nrmse_values.values()))
+
+                    if not peak_nrmse_mean_value == 1:
+                        avg_metrics[metric] += peak_nrmse_mean_value
+                        for p in peak_details:
+                            peak_details[p] += peak_nrmse_values[p]
+                elif not metric_func(target.cpu(), prediction.squeeze(1).cpu()) == 1:
                     avg_metrics[metric] += metric_func(target.cpu(), prediction.squeeze(1).cpu())
 
             if arg_dict['plot_roc']:
@@ -77,34 +91,11 @@ def test():
 
             bar.update(1)
 
-    # add peak NRMSE metric
-    for metric, metric_func in metrics.items():
-        if metric == 'peakNRMSE':
-            print("\n===> peak NRMSE in {} samples, all targets {}, all predicitons {}, "
-                  .format(len(dataset), len(all_targets), len(all_predictions)))
-
-            import torch
-            all_targets = torch.cat(all_targets, dim=0)  # [N, 256, 256, 2]
-            all_predictions = torch.cat(all_predictions, dim=0)
-
-            target_means = all_targets.mean(dim=(1, 2, 3))
-
-            top_k_nums = int(len(target_means) * 0.05)  # 前 %5
-            top_indices = torch.argsort(target_means, descending=True)[:top_k_nums]
-
-            selected_targets = all_targets[top_indices]
-            selected_predictions = all_predictions[top_indices]
-
-            for selected_target, selected_prediction in zip(selected_targets, selected_predictions):
-                target = selected_target.clone().unsqueeze(0)  # [1, 1, 256, 256]
-                prediction = selected_prediction.clone().unsqueeze(0)
-
-                if not metric_func(target.cpu(), prediction.cpu()) == 1:
-                    avg_metrics[metric] += metric_func(target.cpu(), prediction.cpu())
-
     for metric, avg_metric in avg_metrics.items():
         if metric == 'peakNRMSE':
-            print("===> Avg. {}: {:.4f}".format(metric, avg_metric / top_k_nums))
+            print("===> Avg. {}: {:.4f}".format(metric, avg_metric / len(dataset)))
+            for p in peak_details:
+                print("===> Avg. peakNRMSE at top {}%: {:.4f}".format(p*100, peak_details[p] / len(dataset)))
         else:
             print("===> Avg. {}: {:.4f}".format(metric, avg_metric / len(dataset)))
 

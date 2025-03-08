@@ -51,13 +51,13 @@ class Parser(object):
             self.parser.add_argument('--batch_size', default=16)
             self.parser.add_argument('--aug_pipeline', default=['Flip'])
 
-            self.parser.add_argument('--model_type', default='GPDLAdapter')
+            self.parser.add_argument('--model_type', default='GPDL')
             self.parser.add_argument('--in_channels', default=3)
             self.parser.add_argument('--out_channels', default=1)
             self.parser.add_argument('--lr', default=2e-4)
             self.parser.add_argument('--weight_decay', default=0)
             self.parser.add_argument('--loss_type', default='MSELoss')
-            self.parser.add_argument('--eval-metric', default=['peakNRMSE', 'NRMS', 'SSIM', 'EMD', 'PSNR'])
+            self.parser.add_argument('--eval-metric', default=['peakNRMSE', 'NRMS'])
             # self.parser.add_argument('--pretrained_transfer', default='../../transfer_learning_1.0-ispd/models/pretrained/gpdl_congestion.pth')
         else:
             raise ValueError

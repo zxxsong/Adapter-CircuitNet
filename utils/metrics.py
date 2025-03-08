@@ -121,7 +121,7 @@ def nrms(img1, img2, crop_border=0):
         return 0.05
     return nrmse_value
 
-# add peak NRMSE metric
+# add peak NRMSE metric 错误，暂时不用
 @input_converter(apply_to=('img1', 'img2'))
 def peaknrmse(img1, img2, crop_border=0):
     assert img1.shape == img2.shape, (
@@ -131,10 +131,60 @@ def peaknrmse(img1, img2, crop_border=0):
         img1 = img1[crop_border:-crop_border, crop_border:-crop_border, None]
         img2 = img2[crop_border:-crop_border, crop_border:-crop_border, None]
 
-    nrmse_value = normalized_root_mse(img1.flatten(), img2.flatten(), normalization='min-max')
-    if math.isinf(nrmse_value):
+    k_percentages = [0.005, 0.01, 0.02, 0.05]
+    nrmse_values = []
+    for topk_percent in k_percentages:
+        nrmse_value = topk_normalized_root_mse(img1, img2, topk_percent=topk_percent)
+        nrmse_values.append(nrmse_value)
+
+    peak_nrmse_value = np.mean(nrmse_values)
+
+    # peak_nrmse_value = topk_normalized_root_mse(img1, img2, topk_percent=0.005)
+
+    if math.isinf(peak_nrmse_value):
         return 0.05
-    return nrmse_value
+    return peak_nrmse_value
+
+def topk_normalized_root_mse(img1, img2, topk_percent=0.1, normalization='min-max'):
+    assert img1.shape == img2.shape, (
+        f'Image shapes are different: {img1.shape}, {img2.shape}.')
+
+    # 差值大的topk，错误
+    # diff_img = np.abs(img1 - img2)
+    # diff_flatten = diff_img.flatten()
+
+    # k = int(len(diff_flatten) * topk_percent)
+    # if k <= 0:
+    #     return 0.0
+    #
+    # topk_indices = np.argsort(diff_flatten)[-k:]
+
+    img1_flatten = img1.flatten()
+    k = int(len(img1_flatten) * topk_percent)
+    if k <= 0:
+        return 0.0
+
+    topk_indices = np.argsort(img1_flatten)[-k:]
+
+    img1_flatten = img1.flatten()
+    img2_flatten = img2.flatten()
+    topk_img1_pixels = img1_flatten[topk_indices]
+    topk_img2_pixels = img2_flatten[topk_indices]
+
+    height, width = img1.shape[:2] # 高度, 宽度
+    rmse_topk_squared = np.sum((topk_img1_pixels - topk_img2_pixels) ** 2)
+    rmse_topk = math.sqrt(rmse_topk_squared / (height * width * topk_percent))
+
+    if normalization == 'min-max':
+        denom = topk_img1_pixels.max() - topk_img1_pixels.min()
+    else:
+        raise ValueError(f"归一化方法: {normalization}")
+
+    nrmse_topk_value = rmse_topk / denom
+
+    if math.isinf(nrmse_topk_value):
+        return 0.05
+    return nrmse_topk_value
 
 def get_histogram(img):
     h, w = img.shape
