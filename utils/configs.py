@@ -57,7 +57,7 @@ class Parser(object):
             self.parser.add_argument('--lr', default=2e-4)
             self.parser.add_argument('--weight_decay', default=0)
             self.parser.add_argument('--loss_type', default='MSELoss')
-            self.parser.add_argument('--eval-metric', default=['peakNRMSE', 'NRMS'])
+            self.parser.add_argument('--eval-metric', default=['peakNRMSE', 'NRMS', 'MSE'])
             # self.parser.add_argument('--pretrained_transfer', default='../../transfer_learning_1.0-ispd/models/pretrained/gpdl_congestion.pth')
         else:
             raise ValueError

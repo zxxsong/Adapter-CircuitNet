@@ -23,7 +23,7 @@ from skimage.metrics import normalized_root_mse
 import math
 import utils.metrics as metrics
 
-__all__ = ['psnr', 'ssim', 'nrms', 'emd', 'peaknrmse']
+__all__ = ['psnr', 'ssim', 'nrms', 'emd', 'peaknrmse', 'mse']
 
 def mkdir_or_exist(dir_name, mode=0o777):
     if dir_name == '':
@@ -185,6 +185,24 @@ def topk_normalized_root_mse(img1, img2, topk_percent=0.1, normalization='min-ma
     if math.isinf(nrmse_topk_value):
         return 0.05
     return nrmse_topk_value
+
+# add top percentage mse metric 暂时不用
+@input_converter(apply_to=('img1', 'img2'))
+def mse(img1, img2, crop_border=0):
+    pass
+
+# add top percentage mse metric
+def topk_mse(img1, img2, mse_percent=0.1):
+    threshold = np.percentile(img1, (1 - mse_percent) * 100)
+    indices = np.where(img1 >= threshold)
+
+    img1_top = img1[indices]
+    img2_top = img2[indices]
+
+    # 计算MSE
+    mse_value = np.mean((img1_top - img2_top) ** 2)
+
+    return mse_value
 
 def get_histogram(img):
     h, w = img.shape
